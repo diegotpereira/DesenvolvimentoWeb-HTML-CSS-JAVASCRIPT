@@ -13,20 +13,21 @@
     <body>
         <img src="img/logo.svg" alt="MusicDot">
 
-        <h1>Sobre a Empresa</h1>
+        <!--<h1>Sobre a Empresa</h1>-->
+        <h1 class="titulo">Sobre a Empresa</h1>
 
         <p>
-            A	MusicDot é a	maior	escola	online	de	música	em	todo	o	mundo.
-			Fundada	em	2002,	possui	estúdios	em	124	países,	sendo	líder	de	mercado	com	mais	de	90%	de
-			participação	em	118	deles.
+            A MusicDot é a maior escola	online de música em todo o mundo.
+			Fundada em 2002, possui estúdios em 124	países,	sendo líder	de mercado com mais de 90% 
+            de participação em 118 deles.
         </p>
 
         <p>
-            Nossa	matriz	fica	em	Porto Alegre,	no Rio Grande do Sul.	De	lá,	saem	grande	parte	das	gravações	de	
-            nossos	cursos.	Nossa	matriz:
+            Nossa matriz fica em <a href="https://goo.gl/maps/U9UAonLWrC9QCj9r7"> Porto Alegre,	no Rio Grande do Sul </a>. De lá, saem grande parte 
+            das gravações de nossos	cursos.	Nossa matriz:
         </p>
 
-        <figure>
+        <figure class="matriz-musicdot">
             <img src="img/matriz-musicdot.png" alt="Matriz da musicdot">
             <figcaption>
                 Matriz MusicDot
@@ -34,15 +35,14 @@
         </figure>
 
         <p>
-            Assine	os	cursos	da	MusicDot.	Acesse	nosso	site	ou	entre	em	contato
-			se	tiver	dúvidas.	Conheça	também	nossa	história	e	nossos	diferenciais
+            Assine os cursos da MusicDot. Acesse <a href="index.html"> nosso site </a> ou entre em contato se 
+            tiver dúvidas. Conheça também <a href="#historia"> nossa história </a> e <a href="#diferenciais"> nossos diferenciais </a>.
         </p>
 
-        <h2>
-            História
-        </h2>
+        <!--<h2>História</h2>-->
+        <h2 id="historia" class="subtitulo">História</h2>
 
-        <figure>
+        <figure class="familia-tupfeln">
             <img src="img/familia-tupeln.jpg" alt="Foto da familia tupfeln">
             <figcaption>
                 Familia Tupfeln
@@ -71,5 +71,114 @@
             Dada a importância econômica da	empresa	para o Brasil, a família Tüpfeln já recebeu divers os prêmios, homenagens e	condecorações. Todos os	presidentes	do Brasil já visitaram as 
             instalações	da MusicDot, além de presidentes da	União Européia,	Ásia e o secretário-geral da ONU.
         </p>
+
+        <!--<h2>Sobre a MusicDot</h2>-->
+        <h2 id="diferenciais" class="subtitulo">
+            Diferenciais
+        </h2>
+        <ul>
+            <li>Menor preço do mercado, garantido</li>
+            <li>Se	você	achar	um	serviço	mais	barato,	leva	1	mês	de	graça</li>
+            <li>Pague	em	reais,	dólares,	euros,	libras,	dodgecoins,	litecoins	ou	bitcoins</li>
+            <li>Todas	as	compras	acompanham	acesso	à	Alura</li>
+            <li>Maior	escola	de	música	online	do	mundo</li>
+            <li>Atendimento	via	telefone,	email,	chat,	twitter,	facebook,	instagram,	ICQ,	WhatsApp,	SMS,	carta,	fax,	sinal	de	fumaça	e	telegrama</li>
+            <li>Presente em 124 paises</li>
+            <li>Mais de um milhão de funcionários em todo o mundo</li>
+        </ul>
+
+        <h2 class="titulo">Contato</h2>
+
+        <!--<h3>
+            Correspondência
+        </h3>-->
+
+        <h3 class="contato_subtitulo">Correspondência</h3>
+        
+        <small> (todos os dias, das 9h às 18h) </small>
+
+        <address class="contato_info">
+            TP Sistemas de Informática S.A
+            <br>
+            Avenida Borges de Medeiros, 1800, 9° andar
+            Centro
+            <br>
+            Porto Alegre - RS
+        </address>
+
+        <!--<h3>
+            Telefones
+        </h3>-->
+
+        <h3 class="contato_subtitulo"> Telefones</h3>
+
+        <small>
+            (segunda à sexta, das 9h às 18h)
+        </small>
+
+        <dl class="contato_info">
+            <!--<dt> Pessoa Física: </dt>
+            <dd> <a href="tel://513200-0000">(51) 3200-0000</a></dd>
+        </dl>
+        
+        <dl>
+            <dt> Pessoa Jurídica: </dt>
+            <dd> <a href="tel://513200-0001"> (51) 3200-0001</a></dd> -->
+
+            <div>
+                <dt class="contato_info-titulo">Pessoa Física: </dt>
+                <dd class="contato_info-descricao"><a href="tel://513200-0000"> (51) 3200-0000 </a></dd>
+            </div>
+
+            <div>
+                <dt class="contato_info-titulo">Pessoa Jurídica: </dt>
+                <dd class="contato_info-descricao"><a href="tel://513200-0001"> (51) 3200-0001 </a></dd>
+            </div>
+        </dl>
+
+        <section class="produtos produtos--mais-vendidos">
+            <!-- O h2 representa o título desse painel-->
+            <h2 class="produtos_titulo">Produtos mais vendidos</h2>
+            <ul class="produtos_lista">
+                <!-- li representa o produto em si-->
+                <li class="produtos_produto">
+                    <figure>
+                        <img src="img/produto1.png" alt="Foto do produto 1">
+                        <figcaption>Foto do produto 1</figcaption>
+                    </figure>
+                </li>
+
+                <!-- lo representa o produto em si, mas nesse caso também temos um produto destaque-->
+                <li class="produtos__produto	produtos__produto--destaque">
+                    <figure>
+                        <img src="img/produto-destaque.png" alt="Foto do Produto em Destaque">
+                        <figcaption>Foto do produto em destaque</figcaption>
+                    </figure>
+                </li>
+
+                <li class="produtos_produto">
+                    <figure>
+                        <img src="img/produto3.png" alt="Foto do Produto 3">
+                        <figcaption>Foto do Produto 3</figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </section>
+
+        <p>Um	parágrafo	que	é	block</p>
+        <p>Um	parágrafo	que	é	block</p>
+        <a>Um	link	que	é	inline</a>
+        <a>Mais	um	link	que	é	inline</a>
+     <!--Adicionamos a classe subtitulo
+        <h3 class="subtitulo">História</h3>
+        <p>Texto</p>
+
+        Adicionamos a classe subtitulo
+        <h3 class="subtitulo">Diferenciais</h3>
+        <ul>
+            <li>Diferencial 1</li>
+            <li>Diferencial 2</li>
+            <li>Diferencial 3</li>
+        </ul> -->
     </body>
 </html>
