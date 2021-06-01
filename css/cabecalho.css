@@ -5,7 +5,7 @@
     text-transform: uppercase;
     letter-spacing: 0.23em;
     color: #fff;
-    background-color: #2D5377
+    /*background-color: #2D5377*/
 }
 
 .cabecalho_logo {
@@ -32,6 +32,7 @@
 @media  ( min-width: 640px) {
     .cabecalho {
         padding-top: 0;
+        padding-bottom: 0;
         display: flex;
         justify-content: space-between;
         align-items: center;
