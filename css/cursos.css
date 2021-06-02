@@ -19,7 +19,7 @@
 }
 
 .botao:hover {
-    transform: translate(0, 22rem);
+    transform: translate(0, .22rem);
     transition: .25s;
 }
 
@@ -30,7 +30,8 @@
     background-size: cover;
     padding-top: 9.5rem;
     display: flex;
-    flex-direction: column;align-items: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .cursos_chamada {
@@ -190,7 +191,7 @@
         width: 450px;
     }
 
-    .cursos_titulo {
+    .chamada_titulo {
         font-size: 2.5rem;
     }
 
@@ -210,7 +211,7 @@
 
     .cursos_lista .curso--destaque {
         order: -1;
-        grid-area: 1/1 span 2/2;
+        grid-area: 1/1/span 2/2;
         padding-top: 6rem;
         background-size: 6rem 6rem;
         background-position: top 3.6rem center;
@@ -225,7 +226,7 @@
     }
 
     .cursos_lista p {
-        font-size: 9rem;
+        font-size: .9rem;
     }
 
     .curso--destaque2 .imagem-destaque2 {
